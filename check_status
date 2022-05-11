@@ -1,0 +1,2 @@
+#!/bin/bash
+qstat @vm-pbs2|grep a6500g10 | grep dnvaulin

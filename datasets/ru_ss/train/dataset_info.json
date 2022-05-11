@@ -1,0 +1,73 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 9948603,
+  "description": "",
+  "download_checksums": {
+    "D:\\Files\\\u0434\u0438\u043f\u043b\u043e\u043c\\\u0440\u0443\u0441\u0441\u043a\u0438\u0435 \u043d\u0430\u0443\u0447\u043d\u044b\u0435 \u0434\u0430\u0442\u0430\u0441\u0435\u0442\u044b\\\u043f\u0430\u0440\u0441\u0435\u0434\\hugging-face\\ss\\train.json": {
+      "num_bytes": 6764793,
+      "checksum": "a5d72f0612007e8909904d72d41dee45582da397600a7d5327ce0aaca1e3f0ed"
+    },
+    "D:\\Files\\\u0434\u0438\u043f\u043b\u043e\u043c\\\u0440\u0443\u0441\u0441\u043a\u0438\u0435 \u043d\u0430\u0443\u0447\u043d\u044b\u0435 \u0434\u0430\u0442\u0430\u0441\u0435\u0442\u044b\\\u043f\u0430\u0440\u0441\u0435\u0434\\hugging-face\\ss\\eval.json": {
+      "num_bytes": 1366521,
+      "checksum": "7162c93eed84bf63bc46f5ab7d6bb12c869b6f7520d1503da91c74e538e964af"
+    },
+    "D:\\Files\\\u0434\u0438\u043f\u043b\u043e\u043c\\\u0440\u0443\u0441\u0441\u043a\u0438\u0435 \u043d\u0430\u0443\u0447\u043d\u044b\u0435 \u0434\u0430\u0442\u0430\u0441\u0435\u0442\u044b\\\u043f\u0430\u0440\u0441\u0435\u0434\\hugging-face\\ss\\test.json": {
+      "num_bytes": 1832463,
+      "checksum": "bd3605b2f204fe519e0d148214d81f8be4c1af0a6d801a878f54e791c760b8af"
+    }
+  },
+  "download_size": 9963777,
+  "features": {
+    "title": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "absract": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 19912380,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 6754295,
+      "num_examples": 350,
+      "dataset_name": "json"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 1364423,
+      "num_examples": 70,
+      "dataset_name": "json"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1829885,
+      "num_examples": 86,
+      "dataset_name": "json"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "0.0.0",
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 20195889,
+  "description": "",
+  "download_checksums": {
+    "D:\\Files\\\u0434\u0438\u043f\u043b\u043e\u043c\\\u0440\u0443\u0441\u0441\u043a\u0438\u0435 \u043d\u0430\u0443\u0447\u043d\u044b\u0435 \u0434\u0430\u0442\u0430\u0441\u0435\u0442\u044b\\\u043f\u0430\u0440\u0441\u0435\u0434\\hugging-face\\infupr\\train.json": {
+      "num_bytes": 14810754,
+      "checksum": "2d37c9a533e3bbc5e4554616101cfef3e1bcd103e1edf8a95fcb8aba48bc08f9"
+    },
+    "D:\\Files\\\u0434\u0438\u043f\u043b\u043e\u043c\\\u0440\u0443\u0441\u0441\u043a\u0438\u0435 \u043d\u0430\u0443\u0447\u043d\u044b\u0435 \u0434\u0430\u0442\u0430\u0441\u0435\u0442\u044b\\\u043f\u0430\u0440\u0441\u0435\u0434\\hugging-face\\infupr\\eval.json": {
+      "num_bytes": 2338687,
+      "checksum": "76f0efca68c0bf4f1edfaeac4680f505c0bc3dc3aa235f837307ba40c6007ae2"
+    },
+    "D:\\Files\\\u0434\u0438\u043f\u043b\u043e\u043c\\\u0440\u0443\u0441\u0441\u043a\u0438\u0435 \u043d\u0430\u0443\u0447\u043d\u044b\u0435 \u0434\u0430\u0442\u0430\u0441\u0435\u0442\u044b\\\u043f\u0430\u0440\u0441\u0435\u0434\\hugging-face\\infupr\\test.json": {
+      "num_bytes": 3067502,
+      "checksum": "ba62d93d5791ed5fbae26525907df51c6cd3b16ca42d120052c5e41e618479fe"
+    }
+  },
+  "download_size": 20216943,
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "id": null,
+        "_type": "Value"
+      },
+      "length": -1,
+      "id": null,
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 40412832,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 14795156,
+      "num_examples": 520,
+      "dataset_name": "json"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 2336289,
+      "num_examples": 80,
+      "dataset_name": "json"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 3064444,
+      "num_examples": 102,
+      "dataset_name": "json"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "0.0.0",
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
